@@ -19,6 +19,9 @@ async function main() {
 							throw new Error("This link has been disabled !");
 						
 						case 1:
+							if (new URL(location).username==="le-herisson") {
+								console.log("Hi !");
+							}
 							throw new Error("This link is restricted !");
 
 						case 2: 
